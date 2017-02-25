@@ -1,0 +1,2 @@
+# mr-collector
+mapreduce collector
