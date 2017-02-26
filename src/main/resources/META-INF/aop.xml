@@ -1,0 +1,11 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver options="-verbose">
+        <include within="com.tistory.hskimsky..*"/>
+        <include within="org.apache.hadoop.mapred..*"/>
+        <include within="org.apache.hadoop.mapreduce..*"/>
+    </weaver>
+    <aspects>
+        <aspect name="com.tistory.hskimsky.collector.JobCollector"/>
+    </aspects>
+</aspectj>

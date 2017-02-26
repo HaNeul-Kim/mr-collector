@@ -1,0 +1,8 @@
+Manifest-Version: 0.1
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Haneul, Kim
+Build-Jdk: 1.8.0_112
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Premain-Class: org.aspectj.weaver.loadtime.Agent
